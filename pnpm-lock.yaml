@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^0.8.7
     version: 0.8.7
   elm-review:
-    specifier: ^2.10.3
-    version: 2.10.3
+    specifier: ^2.11.0
+    version: 2.11.0
   elm-test:
     specifier: 0.19.1-revision12
     version: 0.19.1-revision12
@@ -2302,15 +2302,15 @@ packages:
       '@avh4/elm-format-win32-x64': 0.8.7-2
     dev: true
 
-  /elm-review@2.10.3:
-    resolution: {integrity: sha512-9gBqLc5Xm3v9Ncpf8y2haEaBZZyMX25vmwQkrNqSIaNYQ2vdGOIx1eyqRtt1xwX5O8pZdqU8IWC/ENyTrOTKbw==}
+  /elm-review@2.11.0:
+    resolution: {integrity: sha512-6ugGN9i68lNFJEy6NXRCjJ/K4xxOr/yinKcHd8RdHw8yQB+KimMxnFc+ywzaSY4GFTS5oMiarcjB/UmAgXhdow==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
       chalk: 4.1.2
       chokidar: 3.6.0
       cross-spawn: 7.0.3
-      elm-tooling: 1.15.0
+      elm-solve-deps-wasm: 1.0.2
       fastest-levenshtein: 1.0.16
       find-up: 4.1.0
       folder-hash: 3.3.3
@@ -2326,7 +2326,7 @@ packages:
       strip-ansi: 6.0.1
       terminal-link: 2.1.1
       which: 2.0.2
-      wrap-ansi: 6.2.0
+      wrap-ansi: 7.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2350,11 +2350,6 @@ packages:
       split: 1.0.1
       which: 2.0.2
       xmlbuilder: 15.1.1
-    dev: true
-
-  /elm-tooling@1.15.0:
-    resolution: {integrity: sha512-quRE5LGJyrkPBoJ3MvFQ5RGgf80J0L0d3NkduStvXh4TmZuMXNC3Z/l2ZRoq2UTUaNWeYfO1Zx5wns1AvsTrnw==}
-    hasBin: true
     dev: true
 
   /elm@0.19.1-6:
@@ -4342,15 +4337,6 @@ packages:
       triple-beam: 1.4.1
       winston-transport: 4.7.0
     dev: false
-
-  /wrap-ansi@6.2.0:
-    resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
-    engines: {node: '>=8'}
-    dependencies:
-      ansi-styles: 4.3.0
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-    dev: true
 
   /wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
