@@ -1,4 +1,17 @@
-# elm-package generated files
-elm-stuff
-# elm-repl generated files
+# General
+.env
+node_modules/
+
+# ELM topics
+elm-stuff/
 repl-temp-*
+
+# Distribution + Build files
+dist/
+
+# Local SSL
+cert.pem
+key.pem
+
+# Tests
+.coverage/
