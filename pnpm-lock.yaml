@@ -27,8 +27,8 @@ dependencies:
     specifier: ^4.7.1
     version: 4.7.1
   vite:
-    specifier: ^5.2.6
-    version: 5.2.6(@types/node@20.12.2)
+    specifier: ^5.2.7
+    version: 5.2.7(@types/node@20.12.2)
   xhook:
     specifier: ^1.6.2
     version: 1.6.2
@@ -39,7 +39,7 @@ devDependencies:
     version: 4.0.0-alpha.10(postcss@8.4.38)
   '@tailwindcss/vite':
     specifier: 4.0.0-alpha.11
-    version: 4.0.0-alpha.11(vite@5.2.6)
+    version: 4.0.0-alpha.11(vite@5.2.7)
   '@types/cookie-parser':
     specifier: ^1.4.6
     version: 1.4.7
@@ -99,7 +99,7 @@ devDependencies:
     version: 5.4.2
   vite-plugin-elm:
     specifier: ^3.0.0
-    version: 3.0.0(vite@5.2.6)
+    version: 3.0.0(vite@5.2.7)
 
 packages:
 
@@ -2023,7 +2023,7 @@ packages:
       - postcss
     dev: true
 
-  /@tailwindcss/vite@4.0.0-alpha.11(vite@5.2.6):
+  /@tailwindcss/vite@4.0.0-alpha.11(vite@5.2.7):
     resolution: {integrity: sha512-VIeE6r5dMh+CLpIEiFFEw474QyQznXsBNJLz4GZ2kGtRqKxnHBjvPnA0EHSBpHZxVTeP/nyj1zopjK6kqInfKw==}
     peerDependencies:
       vite: ^5.2.0
@@ -2031,7 +2031,7 @@ packages:
       '@tailwindcss/oxide': 4.0.0-alpha.11
       lightningcss: 1.24.0
       tailwindcss: 4.0.0-alpha.11
-      vite: 5.2.6(@types/node@20.11.30)
+      vite: 5.2.7(@types/node@20.12.2)
     dev: true
 
   /@types/body-parser@1.19.5:
@@ -2110,12 +2110,6 @@ packages:
       '@types/node': 20.12.2
     dev: true
 
-  /@types/node@20.11.30:
-    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: false
-
   /@types/node@20.12.2:
     resolution: {integrity: sha512-zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==}
     dependencies:
@@ -2164,7 +2158,7 @@ packages:
   /@types/whatwg-url@8.2.2:
     resolution: {integrity: sha512-FtQu10RWgn3D9U4aazdwIE2yzphmTJREDqNdODHrbrZmmMqI0vMheC/6NE/J1Yveaj8H+ela+YwWTjq5PGmuhA==}
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 20.12.2
       '@types/webidl-conversions': 7.0.3
     dev: false
 
@@ -4609,7 +4603,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-elm@3.0.0(vite@5.2.6):
+  /vite-plugin-elm@3.0.0(vite@5.2.7):
     resolution: {integrity: sha512-lHICs6kRM18RdKNLzco2TmC9HOnRp8c6SrDguqbHJ6aaLH15/q8vZ5SQbJZf3lgxui3JBUlnEP9Xx/brYGZZwg==}
     peerDependencies:
       vite: '>= 5.0.0'
@@ -4619,11 +4613,11 @@ packages:
       elm-esm: 1.1.4
       find-up: 7.0.0
       node-elm-compiler: 5.0.6
-      vite: 5.2.6(@types/node@20.12.2)
+      vite: 5.2.7(@types/node@20.12.2)
     dev: true
 
-  /vite@5.2.6(@types/node@20.12.2):
-    resolution: {integrity: sha512-FPtnxFlSIKYjZ2eosBQamz4CbyrTizbZ3hnGJlh/wMtCrlp1Hah6AzBLjGI5I2urTfNnpovpHdrL6YRuBOPnCA==}
+  /vite@5.2.7(@types/node@20.12.2):
+    resolution: {integrity: sha512-k14PWOKLI6pMaSzAuGtT+Cf0YmIx12z9YGon39onaJNy8DLBfBJrzg9FQEmkAM5lpHBZs9wksWAsyF/HkpEwJA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
