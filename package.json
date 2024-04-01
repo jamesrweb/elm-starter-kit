@@ -39,7 +39,7 @@
     "elm-format": "^0.8.7",
     "elm-review": "^2.11.1",
     "elm-test": "0.19.1-revision12",
-    "postcss": "^8.4.36",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "run-pty": "^5.0.0",
