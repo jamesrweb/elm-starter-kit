@@ -67,11 +67,12 @@ config =
     , NoUnsortedRecords.rule
         (NoUnsortedRecords.defaults
             |> NoUnsortedRecords.reportAmbiguousRecordsWithoutFix
+            |> NoUnsortedRecords.treatSubrecordsAsUnknown
         )
     , NoUnsortedTopLevelDeclarations.rule
         (NoUnsortedTopLevelDeclarations.sortTopLevelDeclarations
             |> NoUnsortedTopLevelDeclarations.portsFirst
-            |> NoUnsortedTopLevelDeclarations.exposedOrderWithPrivateLast
-            |> NoUnsortedTopLevelDeclarations.alphabetically
+            |> NoUnsortedTopLevelDeclarations.glueHelpersAfter
+            |> NoUnsortedTopLevelDeclarations.glueDependenciesAfterLastDependent
         )
     ]
