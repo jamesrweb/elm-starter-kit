@@ -54,7 +54,7 @@
     "express-oas-generator": "^1.0.46",
     "helmet": "^7.1.0",
     "morgan": "^1.10.0",
-    "tsx": "^4.7.1",
+    "tsx": "^4.7.2",
     "vite": "^5.2.8",
     "xhook": "^1.6.2"
   }
