@@ -69,10 +69,4 @@ config =
             |> NoUnsortedRecords.reportAmbiguousRecordsWithoutFix
             |> NoUnsortedRecords.treatSubrecordsAsUnknown
         )
-    , NoUnsortedTopLevelDeclarations.rule
-        (NoUnsortedTopLevelDeclarations.sortTopLevelDeclarations
-            |> NoUnsortedTopLevelDeclarations.portsFirst
-            |> NoUnsortedTopLevelDeclarations.glueHelpersAfter
-            |> NoUnsortedTopLevelDeclarations.glueDependenciesAfterLastDependent
-        )
     ]
