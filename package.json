@@ -25,7 +25,7 @@
   "author": "James Robb <47126579+jamesrweb@users.noreply.github.com>",
   "devDependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.14",
-    "@tailwindcss/vite": "4.0.0-alpha.13",
+    "@tailwindcss/vite": "4.0.0-alpha.14",
     "@types/cookie-parser": "^1.4.6",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
