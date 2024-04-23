@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^5.4.5
     version: 5.4.5
   vite-plugin-elm:
-    specifier: ^3.0.0
-    version: 3.0.0(vite@5.2.10)
+    specifier: ^3.0.1
+    version: 3.0.1(vite@5.2.10)
 
 packages:
 
@@ -4493,8 +4493,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-elm@3.0.0(vite@5.2.10):
-    resolution: {integrity: sha512-lHICs6kRM18RdKNLzco2TmC9HOnRp8c6SrDguqbHJ6aaLH15/q8vZ5SQbJZf3lgxui3JBUlnEP9Xx/brYGZZwg==}
+  /vite-plugin-elm@3.0.1(vite@5.2.10):
+    resolution: {integrity: sha512-xdIJ4SCrSfdcjsyvFOicn3xFq3wNXobX+OOnU4z24/7n/XGMJO3k70gUrH30tusdApOPQpIPM50wynoG3F35HQ==}
     peerDependencies:
       vite: '>= 5.0.0'
     dependencies:
