@@ -27,8 +27,8 @@ dependencies:
     specifier: ^4.7.3
     version: 4.7.3
   vite:
-    specifier: ^5.2.10
-    version: 5.2.10(@types/node@20.12.7)
+    specifier: ^5.2.11
+    version: 5.2.11(@types/node@20.12.7)
   xhook:
     specifier: ^1.6.2
     version: 1.6.2
@@ -39,7 +39,7 @@ devDependencies:
     version: 4.0.0-alpha.14(postcss@8.4.38)
   '@tailwindcss/vite':
     specifier: 4.0.0-alpha.14
-    version: 4.0.0-alpha.14(vite@5.2.10)
+    version: 4.0.0-alpha.14(vite@5.2.11)
   '@types/cookie-parser':
     specifier: ^1.4.6
     version: 1.4.7
@@ -99,7 +99,7 @@ devDependencies:
     version: 5.4.5
   vite-plugin-elm:
     specifier: ^3.0.1
-    version: 3.0.1(vite@5.2.10)
+    version: 3.0.1(vite@5.2.11)
 
 packages:
 
@@ -1917,7 +1917,7 @@ packages:
       - postcss
     dev: true
 
-  /@tailwindcss/vite@4.0.0-alpha.14(vite@5.2.10):
+  /@tailwindcss/vite@4.0.0-alpha.14(vite@5.2.11):
     resolution: {integrity: sha512-tvKPP948JrgSR1Ig5ogLYEn1h4FW36W3p0eCGFGJV++NF7QsBh0j98HydrhvQDxsC9jZ037yGWUOc4VPMbt22g==}
     peerDependencies:
       vite: ^5.2.0
@@ -1925,7 +1925,7 @@ packages:
       '@tailwindcss/oxide': 4.0.0-alpha.14
       lightningcss: 1.24.0
       tailwindcss: 4.0.0-alpha.14
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.11(@types/node@20.12.7)
     dev: true
 
   /@types/body-parser@1.19.5:
@@ -4493,7 +4493,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-elm@3.0.1(vite@5.2.10):
+  /vite-plugin-elm@3.0.1(vite@5.2.11):
     resolution: {integrity: sha512-xdIJ4SCrSfdcjsyvFOicn3xFq3wNXobX+OOnU4z24/7n/XGMJO3k70gUrH30tusdApOPQpIPM50wynoG3F35HQ==}
     peerDependencies:
       vite: '>= 5.0.0'
@@ -4503,11 +4503,11 @@ packages:
       elm-esm: 1.1.4
       find-up: 7.0.0
       node-elm-compiler: 5.0.6
-      vite: 5.2.10(@types/node@20.12.7)
+      vite: 5.2.11(@types/node@20.12.7)
     dev: true
 
-  /vite@5.2.10(@types/node@20.12.7):
-    resolution: {integrity: sha512-PAzgUZbP7msvQvqdSD+ErD5qGnSFiGOoWmV5yAKUEI0kdhjbH6nMWVyZQC/hSc4aXwc0oJ9aEdIiF9Oje0JFCw==}
+  /vite@5.2.11(@types/node@20.12.7):
+    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
