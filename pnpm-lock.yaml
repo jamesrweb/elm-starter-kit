@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^0.8.7
     version: 0.8.7
   elm-review:
-    specifier: ^2.11.1
-    version: 2.11.1
+    specifier: ^2.11.2
+    version: 2.11.2
   elm-test:
     specifier: 0.19.1-revision12
     version: 0.19.1-revision12
@@ -2556,8 +2556,8 @@ packages:
       '@avh4/elm-format-win32-x64': 0.8.7-2
     dev: true
 
-  /elm-review@2.11.1:
-    resolution: {integrity: sha512-mJJN7QmqlV7HcaLigsiap6X3/7o9idA3bg3h7228iokUmBccpBquakPaShM8BZ/wDYtWg53sevSaFpGniEujFA==}
+  /elm-review@2.11.2:
+    resolution: {integrity: sha512-FhZ/m59C9CPWgn34/yvGUoCsSmXDnFFR2GfmuFbcnRwcn2aybsOUav5ET2lXs+4V1zZMRTG6In8cCUooAhwHVg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
