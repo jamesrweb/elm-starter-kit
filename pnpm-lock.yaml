@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.0.0
   tailwindcss:
-    specifier: 4.0.0-alpha.14
-    version: 4.0.0-alpha.14
+    specifier: 4.0.0-alpha.15
+    version: 4.0.0-alpha.15
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -1802,12 +1802,6 @@ packages:
     dependencies:
       undici-types: 5.26.5
 
-  /@types/node@20.12.7:
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: false
-
   /@types/qs@6.9.12:
     resolution: {integrity: sha512-bZcOkJ6uWrL0Qb2NAWKa7TBU+mJHPzhx9jjLL1KHF+XpzEcR7EXHvjbHlGtR/IsP1vyPrehuS6XqkmaePy//mg==}
 
@@ -1851,7 +1845,7 @@ packages:
   /@types/whatwg-url@8.2.2:
     resolution: {integrity: sha512-FtQu10RWgn3D9U4aazdwIE2yzphmTJREDqNdODHrbrZmmMqI0vMheC/6NE/J1Yveaj8H+ela+YwWTjq5PGmuhA==}
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.10
       '@types/webidl-conversions': 7.0.3
     dev: false
 
@@ -4101,6 +4095,10 @@ packages:
 
   /tailwindcss@4.0.0-alpha.14:
     resolution: {integrity: sha512-7qAhQPrsWyaaDk0IjOEhTEdgDWsN0MjB3kk38DxK5vXqPJ7C57FYlARA6vrE36WL0K/mYdAA54vWJbWbDfoVcQ==}
+    dev: true
+
+  /tailwindcss@4.0.0-alpha.15:
+    resolution: {integrity: sha512-hlL3dKkgKTNz6dXe4OWJMngI9DdcJncGXvhhjdPkMc/Pqc81NCYaV/8Z11DZ4Djy5RSFfLf41HI6+DGeKtvJ2g==}
     dev: true
 
   /temp@0.9.4:
