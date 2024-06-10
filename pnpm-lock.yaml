@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.0.0
   tailwindcss:
-    specifier: 4.0.0-alpha.15
-    version: 4.0.0-alpha.15
+    specifier: 4.0.0-alpha.16
+    version: 4.0.0-alpha.16
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -4095,6 +4095,10 @@ packages:
 
   /tailwindcss@4.0.0-alpha.15:
     resolution: {integrity: sha512-hlL3dKkgKTNz6dXe4OWJMngI9DdcJncGXvhhjdPkMc/Pqc81NCYaV/8Z11DZ4Djy5RSFfLf41HI6+DGeKtvJ2g==}
+    dev: true
+
+  /tailwindcss@4.0.0-alpha.16:
+    resolution: {integrity: sha512-h6UIkQEpOJZy0N8tXeWgIhsEYPfUyqST9Oidr46+1W78p8S9hjJDfnW08/bKW17NA9/ro8sZvFHT98LtwwxtSQ==}
     dev: true
 
   /temp@0.9.4:
