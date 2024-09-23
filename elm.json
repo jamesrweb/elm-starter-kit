@@ -11,7 +11,7 @@
       "elm/time": "1.0.0",
       "elm/url": "1.0.0",
       "elm-community/html-extra": "3.4.0",
-      "elmcraft/core-extra": "2.0.0",
+      "elmcraft/core-extra": "2.1.0",
       "hmsk/elm-vite-plugin-helper": "1.0.1",
       "krisajenkins/remotedata": "6.0.1",
       "lydell/elm-app-url": "1.0.4",
